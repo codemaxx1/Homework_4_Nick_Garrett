@@ -32,11 +32,16 @@ public class App {
         FelicitySmoke.isSisterTo(LilianBaker);
         TaylorBaker.isAuntTo(FelicitySmoke);
         */
-        Relationship relationship = new Relationship(TaylorBaker, FelicitySmoke, "Mother");
+        Relationship relationship = new Relationship();
+        relationship.setRelationship(TaylorBaker, LilianBaker, "Mother");
+        String[] taylorToLilian = relationship.getRelationship(TaylorBaker, LilianBaker);
 
-        relationship.getRelationship(TaylorBaker, JohnBaker);
+        //print all relationships between the two people
+        for(int i=0; i< taylorToLilian.length; i++)
+        System.out.println("relationship between taylor and lilian:" + taylorToLilian[i]);
+
         //program ends
-        System.out.println("\nProgram End\n");
+        System.out.println("\nProgram End");
 
     }
 }

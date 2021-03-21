@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c03b2dd4-1359-4870-bc76-7d5a4ff0de1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/printRelationship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/readFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/writeToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/Relationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/Relationship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/normalPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/normalPerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,8 +199,8 @@
       <item itemvalue="Application.UnnamedApp" />
       <item itemvalue="Application.appapplication" />
       <item itemvalue="Application.UnnamedA" />
-      <item itemvalue="Gradle.AppRun" />
       <item itemvalue="Application.App (1)" />
+      <item itemvalue="Gradle.AppRun" />
     </list>
     <recent_temporary>
       <list>
