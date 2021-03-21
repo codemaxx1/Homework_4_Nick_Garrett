@@ -32,9 +32,9 @@ public class App {
         FelicitySmoke.isSisterTo(LilianBaker);
         TaylorBaker.isAuntTo(FelicitySmoke);
         */
-        Relationship replationship = new Relationship(TaylorBaker, FelicitySmoke, "Mother");
+        Relationship relationship = new Relationship(TaylorBaker, FelicitySmoke, "Mother");
 
-
+        relationship.getRelationship(TaylorBaker, JohnBaker);
         //program ends
         System.out.println("\nProgram End\n");
 

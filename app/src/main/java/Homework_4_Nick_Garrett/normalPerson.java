@@ -1,6 +1,7 @@
 package Homework_4_Nick_Garrett;
 
 public class normalPerson implements person{
+//concrete element
 
     //age name, birthday
     private String name;

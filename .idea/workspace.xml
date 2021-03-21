@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c03b2dd4-1359-4870-bc76-7d5a4ff0de1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/printRelationship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/normalPerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/Relationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/Relationship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/aunt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/brother.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/cousin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/father.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/mother.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/nephiew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/niece.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/sister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/uncle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/normalPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/normalPerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,17 +74,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.App (1)">
-    <configuration name="App" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Homework_1_Nick_Garrett.App" />
-      <module name="Homework_1_Nick_Garrett.app.main" />
-      <option name="PROGRAM_PARAMETERS" value="$MAVEN_REPOSITORY$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework_4_Nick_Garrett.App" />
       <module name="Homework_1_Nick_Garrett.app.main" />
       <extension name="coverage">
@@ -106,6 +83,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Homework_1_Nick_Garrett.App" />
+      <module name="Homework_1_Nick_Garrett.app.main" />
+      <option name="PROGRAM_PARAMETERS" value="$MAVEN_REPOSITORY$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +113,19 @@
       <option name="MAIN_CLASS_NAME" value="Homework_1_Nick_Garrett.App" />
       <module name="Homework_1_Nick_Garrett.app.main" />
       <option name="PROGRAM_PARAMETERS" value="$MAVEN_REPOSITORY$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework_4_Nick_Garrett.App" />
+      <module name="Homework_1_Nick_Garrett.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework_4_Nick_Garrett.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,8 +199,8 @@
       <item itemvalue="Application.UnnamedApp" />
       <item itemvalue="Application.appapplication" />
       <item itemvalue="Application.UnnamedA" />
-      <item itemvalue="Application.App (1)" />
       <item itemvalue="Gradle.AppRun" />
+      <item itemvalue="Application.App (1)" />
     </list>
     <recent_temporary>
       <list>
