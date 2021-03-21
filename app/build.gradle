@@ -26,6 +26,11 @@ dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:29.0-jre'
 
+    /*
+    implementation(group: 'com.google.guava', name: 'guava', version: '27.0-jre') {
+        exclude group: 'com.google.guava' , module: 'failureaccess'
+    }
+    */
     //gson stuff
     //compile 'com.google.code.gson:gson:2.8.6'
     //implementation 'com.google.code.gson:gson:2.8.6'
@@ -41,6 +46,20 @@ tasks.named('test') {
     // Use junit platform for unit tests.
     useJUnitPlatform()
 }
+
+
+ext.moduleName = 'your.module'
+
+compileJava {
+    inputs.property('moduleName', moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath
+        ]
+        classpath = files()
+    }
+}
+
 
 
 

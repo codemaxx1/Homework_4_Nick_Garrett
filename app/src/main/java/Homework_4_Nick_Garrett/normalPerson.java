@@ -1,19 +1,24 @@
 package Homework_4_Nick_Garrett;
 
-public class Person {
+public class normalPerson implements person{
+
     //age name, birthday
     private String name;
     private int age;
     private String birthday;
 
-    public Person(String name, int age, String birthday) {
+    //initializers
+    public normalPerson(String name, int age, String birthday)
+    {
         this.name = name;
         this.age = age;
         this.birthday = birthday;
+        System.out.println("New Person Added;\n\t\tname:"+name+"\n\t\tage:"+age+"\n\t\tbirthday:"+birthday+"\n");
     }
 
-    public Person(String name) {
-    }
+    public normalPerson() {    }
+
+
 
 
     /////////////////////////////////
@@ -39,6 +44,7 @@ public class Person {
     }
 
 
+
     /////////////////////////////////
     //birthday
     public String getBirthday() {
@@ -49,4 +55,18 @@ public class Person {
         this.birthday = birthday;
     }
 
+
+
+    /////////////////////////////////
+    //info
+    public String getInfo() {
+        return name+" "+age+" "+birthday;
+    }
+
+
+
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
 }

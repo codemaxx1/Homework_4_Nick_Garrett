@@ -1,8 +1,9 @@
 module Homework_4_Nick_Garrett.app.main{
+    //requires com.google.common;
 
-        exports Homework_4_Nick_Garrett;
+    exports Homework_4_Nick_Garrett;
         //requires com.google.gson;
         //exports edu.isu.cs.cs2263.gson;
-        //opens Homework_1_Nick_Garrett to com.google.gson;
-
+        //opens Homework_4_Nick_Garrett to com.google.gson;
+        requires com.google.common;
         }
