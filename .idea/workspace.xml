@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c03b2dd4-1359-4870-bc76-7d5a4ff0de1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/countRelationship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/mother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/brother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/relationshipStringHasher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/sister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/Relationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/relationshipInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/mother.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/printRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/printRelationship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/relationshipInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/relationshipInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/writeToFile.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />

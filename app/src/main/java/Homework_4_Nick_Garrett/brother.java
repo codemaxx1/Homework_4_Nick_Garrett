@@ -1,13 +1,7 @@
 package Homework_4_Nick_Garrett;
 
-import com.google.common.base.Objects;
-import com.google.common.graph.MutableNetwork;
-import com.google.common.graph.NetworkBuilder;
-
-public class mother extends relationshipInterface{
-    //public MutableNetwork<Object, String> family = NetworkBuilder.directed().allowsParallelEdges(true).build();
-
-    String relationship = "mother";
+public class brother extends relationshipInterface{
+    String relationship = "brother";
 
     //add a new relationship between two people
     void createRelationship(Object name1, Object name2)
@@ -34,6 +28,6 @@ public class mother extends relationshipInterface{
         return(relationship);
     }
 
-
+    
 
 }

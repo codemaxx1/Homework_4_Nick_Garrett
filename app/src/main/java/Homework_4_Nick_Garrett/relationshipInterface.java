@@ -10,7 +10,7 @@ abstract public class relationshipInterface {
     normalPerson NAME1;
     normalPerson NAME2;
 
-    public static MutableNetwork<Object, String> family = NetworkBuilder.directed().allowsParallelEdges(true).build();
+    public static MutableNetwork<Object, String> family = NetworkBuilder.undirected().allowsParallelEdges(true).build();
 
 
 
