@@ -29,4 +29,8 @@ public class sister extends relationshipInterface{
     }
 
 
+    public String[] accept(normalPerson person1, normalPerson person2) {
+        //Visitor.getRelationship();
+        return getRelationship(person1, person2);
+    }
 }

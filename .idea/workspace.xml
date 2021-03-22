@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c03b2dd4-1359-4870-bc76-7d5a4ff0de1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/brother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/relationshipStringHasher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/sister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/brother.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/brother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/countRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/countRelationship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/father.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/father.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/mother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/printRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/printRelationship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/relationshipInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/relationshipInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/writeToFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/sister.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Homework_4_Nick_Garrett/sister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

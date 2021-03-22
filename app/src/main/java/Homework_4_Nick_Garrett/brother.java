@@ -2,6 +2,7 @@ package Homework_4_Nick_Garrett;
 
 public class brother extends relationshipInterface{
     String relationship = "brother";
+    private Object person;
 
     //add a new relationship between two people
     void createRelationship(Object name1, Object name2)
@@ -28,6 +29,9 @@ public class brother extends relationshipInterface{
         return(relationship);
     }
 
-    
+    public String[] accept(normalPerson person1, normalPerson person2) {
+        //Visitor.getRelationship();
+        return getRelationship(person1, person2);
+    }
 
 }
