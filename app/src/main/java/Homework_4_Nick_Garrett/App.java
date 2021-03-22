@@ -22,6 +22,10 @@ public class App {
         So, I decided that it would be prudent to remove the terrible-looking class and instead have some hard-written lines of code (below) which show what the "file reader"
             would have called (except with populating the data fields with values from the file.)
 
+        Also, the framework for this code (gradle, etc.) was taken from Homework 1.  I am about 98% certain that I changed everything to reflect that this is Homework 4, though it is
+            possible that I may have missed a few in some of the harder-to-reach description files.
+        If you come accross anything like this, rest assured that I did my best to fix everything before I started programming.
+        I re-used an old homework file setup because for whatever reason, Gradle refused to work correctly. 
          */
 
         //list of people and their information
@@ -44,7 +48,7 @@ public class App {
         relationshipInterface r3 = new brother();
         r3.createRelationship(TaylorBaker, ElizaSnow);
 
-        
+
         //get the relationship between name1 and name2
         String[] getR = relationshipInterface.getRelationship(name1,name2);
         //print all relationships between the two people
