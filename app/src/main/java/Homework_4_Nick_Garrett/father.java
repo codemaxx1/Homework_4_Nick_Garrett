@@ -32,4 +32,5 @@ public class father extends relationshipInterface{
         //Visitor.getRelationship();
         return getRelationship(person1, person2);
     }
+
 }
