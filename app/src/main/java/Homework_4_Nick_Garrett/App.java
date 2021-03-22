@@ -15,6 +15,8 @@ public class App {
         //program starts
         System.out.println("Program Start\n");
 
+
+
         //list of people and their information
         normalPerson JohnBaker = new normalPerson("John Baker", 21, "11/16");
         normalPerson LilianBaker = new normalPerson("Lilian Baker", 19, "2/14");
@@ -25,20 +27,21 @@ public class App {
 
 
         //add relationships
-        /*
-        JohnBaker.isFatherTo(LilianBaker);
-        LailaCalder.isSisterTo(JohnBaker);
-        LailaCalder.isMotherTo(LilianBaker);
-        FelicitySmoke.isSisterTo(LilianBaker);
-        TaylorBaker.isAuntTo(FelicitySmoke);
-        */
-        Relationship relationship = new Relationship();
-        relationship.setRelationship(TaylorBaker, LilianBaker, "Mother");
-        String[] taylorToLilian = relationship.getRelationship(TaylorBaker, LilianBaker);
+        normalPerson name1 = JohnBaker;
+        normalPerson name2 = LilianBaker;
+        relationshipInterface r1 = new mother();
+        r1.createRelationship(name1, name2);
 
+        relationshipInterface r2 = new mother();
+        //r2.createRelationship(name1, TaylorBaker);
+
+
+        //get the relationship between name1 and name2
+        String[] getR = relationshipInterface.getRelationship(name1,name2);
         //print all relationships between the two people
-        for(int i=0; i< taylorToLilian.length; i++)
-        System.out.println("relationship between taylor and lilian:" + taylorToLilian[i]);
+        for(int i=0; i< getR.length; i++)
+        System.out.println("relationship between" + name1.getName() + " and " + name2.getName() + " "+ getR[i]);
+
 
         //program ends
         System.out.println("\nProgram End");
